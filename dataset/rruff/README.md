@@ -66,8 +66,7 @@ cohort identifiers. Final model-input assembly and evaluation manifests belong
 to the later model release. The auxiliary 20 keV arrays are not drop-in inputs
 for a model expecting the base grid. Keep angular metadata with each array.
 
-The regression reference is a pymatgen-based proxy, not a GSAS-II-validated
-dataset. The 706 complete-label evaluation records and the 278-record prefix
+The regression reference is a pymatgen-based proxy. The 706 complete-label evaluation records and the 278-record prefix
 intersection are evaluation subsets of the preparation outputs; final evaluation
 manifests will accompany the later model release.
 
