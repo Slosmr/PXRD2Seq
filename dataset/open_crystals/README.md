@@ -1,15 +1,11 @@
 # MP/COD/AMCSD construction
 
-Use Python 3.11 or later. The direct dependency pins match the preparation
-environment; they are not a complete lock of transitive dependencies.
+Use Python 3.11 or later. 
 
 ```bash
 python -m pip install -r dataset/open_crystals/requirements.txt
 python dataset/open_crystals/build_dataset.py --config dataset/open_crystals/config.example.json --dry-run
 ```
-
-The preview does not download data, require a credential, validate the presence
-of raw inputs, or create output files.
 
 ## Actual build
 
