@@ -36,7 +36,7 @@ not the online-augmented training patterns.
   candidates using the included composition heuristic. Reconstruction excludes
   pressure/high-temperature records and flags selected synthetic, thermal,
   growth, or low-temperature records for downweighting.
-- AMCSD is first processed without internal or RRUFF deduplication. The joint
+- AMCSD is first processed without internal deduplication. The joint
   reconstruction then applies approximate deduplication across MP, COD, and AMCSD.
 - The approximate key combines normalized formula, space-group number, and
   `floor(volume_per_atom / 0.05)`. Keeper priority is AMCSD, COD, then MP. This
@@ -112,7 +112,7 @@ At least 7 of the top 10 DIF peaks must match, using a d-spacing relative
 tolerance of 0.5% or a 2theta tolerance of 0.2 degrees. The output records the
 validation method, thresholds, and reconstructed reference cell.
 
-This is a pymatgen-based proxy cohort, not a GSAS-II-validated subset.
+This is a pymatgen-based proxy cohort.
 Missing or ambiguous DIF metadata
 can prevent a sample from entering a cohort.
 
