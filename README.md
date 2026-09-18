@@ -71,7 +71,7 @@ python dataset/open_crystals/build_dataset.py --config dataset/open_crystals/con
 
 For an actual build, obtain the source data from their providers and configure
 the input paths. Materials Project access uses the `MP_API_KEY` environment
-variable. Never put a credential in source code or committed configuration files.
+variable. 
 
 ## Repository layout
 
@@ -83,6 +83,4 @@ docs/
   DATASETS.md          Dataset card and reproducibility boundaries
   DATA_SOURCES.md      Source databases and acquisition notes
   RELEASE_PLAN.md      Current and planned release contents
-CITATION.md            Manuscript title and project link
-THIRD_PARTY_NOTICES.md Data and software acknowledgements
 ```
