@@ -19,7 +19,3 @@ Included now:
 - Exact study split/cohort manifests and checkpoints, with source and version information.
 - Final RRUFF model-input assembly using the base grid and strict cohort identifiers.
 - Processed data artifacts where redistribution is appropriate.
-
-The next release will document its actual contents and limitations. No exact
-release date, accepted venue, or complete-data availability is asserted in this
-preliminary snapshot.
