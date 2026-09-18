@@ -1,0 +1,40 @@
+{
+  "paths": {
+    "cod_cif_root": "./raw_data/COD/cif",
+    "amcsd_cif_root": "./raw_data/AMCSD",
+    "rruff_test_csv": "",
+    "build_root": "./build",
+    "output_dir": "./build/dataset"
+  },
+  "mp": {
+    "resume": true,
+    "batch_size": 64,
+    "checkpoint_every": 512,
+    "max_records": null
+  },
+  "cod": {
+    "batch_size": 64,
+    "max_files": null
+  },
+  "amcsd": {
+    "workers": 8,
+    "max_files": null,
+    "rebuild_raw": false
+  },
+  "policy": {
+    "cod_hard_risk_flags": "pressure,high_temperature",
+    "cod_review_risk_flags": "synthetic,thermal,growth,low_temperature",
+    "cod_low_temperature_lt": 250.0,
+    "cod_high_temperature_gt": 400.0,
+    "mp_exclude_energy_gt": 0.2,
+    "mp_weight_005_010": 0.5,
+    "mp_weight_010_020": 0.1,
+    "volume_per_atom_bin": 0.05
+  },
+  "build": {
+    "workers": 8,
+    "random_seed": 42,
+    "artifact_mode": "hardlink",
+    "reset_output": false
+  }
+}
