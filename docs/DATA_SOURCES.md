@@ -8,9 +8,6 @@
 | RRUFF | [RRUFF](https://www.rruff.net/) | Experimental PXRD patterns and DIF metadata | Not specified in the construction record |
 
 Dates describe project acquisition records, not official database releases.
-The MP date was inferred from the stored artifact creation window; it does not
-identify an immutable MP database version. Exact source snapshots are not
-included in this release.
 
 ## Acquiring inputs
 
