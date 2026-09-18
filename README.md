@@ -86,10 +86,3 @@ docs/
 CITATION.md            Manuscript title and project link
 THIRD_PARTY_NOTICES.md Data and software acknowledgements
 ```
-
-## Citation and acknowledgements
-
-The manuscript title and project link are provided in [CITATION.md](CITATION.md). This snapshot
-does not claim an accepted venue or a publication DOI. Please also acknowledge
-the underlying [data sources](docs/DATA_SOURCES.md) when using derived datasets.
-See [third-party notices](THIRD_PARTY_NOTICES.md) for dependency and data attribution.
