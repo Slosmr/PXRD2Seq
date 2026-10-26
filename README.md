@@ -30,10 +30,6 @@ construction scripts for the open-crystal and experimental RRUFF datasets.
 | PXRD2Seq model, training, and inference code | Planned after acceptance or publication |
 | Baselines, analysis experiments, and trained checkpoints | Planned after acceptance or publication |
 
-The current release is not a complete reproduction package for the paper's
-experiments. In particular, the structure builder exports ideal peak tables;
-online augmentation and model evaluation belong to the later model release.
-
 ## Datasets
 
 The simulated-data collection is constructed from Materials Project (MP), COD,
