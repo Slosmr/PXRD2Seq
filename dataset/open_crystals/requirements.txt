@@ -1,0 +1,5 @@
+mp-api==0.46.0
+numpy==2.4.3
+pandas==3.0.1
+pymatgen==2025.10.7
+tqdm==4.67.3

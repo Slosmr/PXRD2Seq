@@ -1,0 +1,5 @@
+numpy==2.4.3
+pandas==3.0.1
+pymatgen==2025.10.7
+scipy==1.17.1
+tqdm==4.67.3
